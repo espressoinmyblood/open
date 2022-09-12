@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Chart from './components/Chart';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="chart-app">
+      <h3>Figure 2. Differences between Older and Younger people</h3>
+      <Chart />
     </div>
   );
 }
